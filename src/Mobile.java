@@ -2,14 +2,14 @@
 public class Mobile extends Bill
 {
 	//properties
-	String Manufacturer_Name;
-	String Plan_Name;
-	int Mobile_Number;
-	float GB_Used;
-	int Minute_Used;
+	private String Manufacturer_Name;
+	private String Plan_Name;
+	private int Mobile_Number;
+	private float GB_Used;
+	private int Minute_Used;
 	
 	//Constructor
-public Mobile(int id,int date,String type,float total,String ManufacturerName,String PlanName,int mob,float GB,int minute)
+public Mobile(int id,String date,String type,float total,String ManufacturerName,String PlanName,int mob,float GB,int minute)
 {
 	super( id, date, type, total);
 	this.Manufacturer_Name=ManufacturerName;

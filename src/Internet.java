@@ -3,11 +3,11 @@ public class Internet extends Bill
 
 {
 	//properties
-   String Provider_Name;
-   float GB_used;
+  private String Provider_Name;
+  private float GB_used;
    
    //Constructor
-public Internet(int id,int date,String type,float total,String name,float GB)
+public Internet(int id,String date,String type,float total,String name,float GB)
 {
 	super( id, date, type, total);
 	this.Provider_Name=name;

@@ -3,11 +3,11 @@ public class Hydro extends Bill
 {
 	
 	//properties
-	String AgencyName;
-	float Unit_Consumed;
+	private String AgencyName;
+	private float Unit_Consumed;
 	
 	//Constructor
-public Hydro(int id,int date,String type,float total,String agencyName,float Unit)
+public Hydro(int id,String date,String type,float total,String agencyName,float Unit)
 {
 	super( id, date, type, total);
 	this.AgencyName=agencyName;
